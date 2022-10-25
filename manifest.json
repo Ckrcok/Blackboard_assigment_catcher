@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "BlackBoard Catcher",
+    "version": "1.0",
+  
+    "description": "BlackBoard Catcher is a Chrome extension that allows you to get all the assigments from a BlackBoard course.",
+    "homepage_url": "https://github.com/Ckrcok/Blackboard_assigment_catcher",
+    "icons": {
+      "48": "icons/icon.png",
+      "49": "icons/icon-96.png"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/icon-blackNwhite.png",
+      "default_title": "BlackBoard Catcher",
+      "default_popup": "popup/choose_beast.html"
+    },
+  
+    "web_accessible_resources": [
+      "beasts/frog.jpg",
+      "beasts/turtle.jpg",
+      "beasts/snake.jpg"
+    ]
+  }
+  
